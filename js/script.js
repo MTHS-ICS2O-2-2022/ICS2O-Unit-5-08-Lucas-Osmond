@@ -10,7 +10,7 @@ function myButtonClicked () {
   let remainder = numberA
   let answer = 0
 
-  while (remainder > numberB) {
+  while (remainder >= numberB) {
     remainder -= numberB
     answer++
   }
