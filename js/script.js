@@ -18,6 +18,6 @@ function myButtonClicked () {
     if (remainder > 0) {
     document.getElementById('answer').innerHTML = 'The answer is ' + answer + ' with a remainder of ' + remainder + "."
   } else {
-  document.getElementById('answer').innerHTML = 'The answer is ' + answer + "." + ' There is no remainder.'
+  document.getElementById('answer').innerHTML = 'The answer is ' + answer + "."
   }
 }
